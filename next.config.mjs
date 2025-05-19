@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    experimental: {
+        turbo: false, // <-- Turbopack 끄기
+    },
+};
 
 export default nextConfig;
