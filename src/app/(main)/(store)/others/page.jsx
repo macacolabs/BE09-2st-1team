@@ -7,7 +7,7 @@ import CardSection from "./components/CardSection";
 export default function page() {
   return (
     <>
-      <Suspense fallback={null}>
+      <Suspense fallback={<div>Loading...</div>}>
         <StoreLocationSection />
         <CardSection />
       </Suspense>
